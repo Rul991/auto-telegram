@@ -2,8 +2,8 @@ from datetime import datetime
 import re
 import time
 
-def log(title: str, other: str, additional: str | None = None):
-    print(f'({additional or 'log'})[{title}] {other}')
+def log(title: str, other: str):
+    print(f'[{title}] {other}')
 
 def is_convertible_to_number(s: str) -> bool:
     return bool(re.fullmatch(r'^-?\d*\.?\d+$', s))
