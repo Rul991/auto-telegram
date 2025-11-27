@@ -1,6 +1,6 @@
 # Auto-Telegram
 
-Auto-Telegram is a Python-based Telegram bot framework that allows you to create and manage custom commands easily. It uses the Pyrogram library for interacting with Telegram's API.
+Auto-Telegram is a Python-based Pyrogram app designed to automate message sending on Telegram. It interact with Telegram's API, allowing you to create and manage custom commands for seamless message automation.
 
 ## Features
 
