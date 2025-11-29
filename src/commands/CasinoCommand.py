@@ -7,7 +7,7 @@ from src.consts import DELAY
 
 class CasinoCommand(Command):
     _args = []
-    description = 'sends a dice roll message every 2 seconds'
+    description = f'sends a dice roll message every {DELAY} seconds'
 
     @property
     def name(self) -> str:

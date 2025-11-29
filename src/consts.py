@@ -9,4 +9,4 @@ PASSWORD = getenv('PASSWORD') or ''
 PHONE = getenv('PHONE') or ''
 APP_NAME = getenv('APP_NAME') or 'auto-telegram'
 
-DELAY = 2
+DELAY = 3

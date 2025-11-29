@@ -40,7 +40,7 @@ Auto-Telegram is a Python-based Pyrogram app designed to automate message sendin
    - `.help`: Show all available commands.
    - `.loop <count> <texts>`: Send a specified number of messages in a loop.
    - `.delay <count> <delay in seconds> <message>`: Schedule messages to be sent at specific intervals.
-   - `.casino`: Send a casino dice message every 2 seconds.
+   - `.casino`: Send a casino dice.
 
 ## Configuration
 

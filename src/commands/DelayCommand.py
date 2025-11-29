@@ -15,7 +15,7 @@ class DelayCommand(Command):
     def _get_args_messages(self) -> list[str]:
         return ['count', 'delay in seconds', 'message']
 
-    async def execute(self, client: Client,  msg: Message, values: list[str]): # pyright: ignore[reportIncompatibleMethodOverride]
+    async def execute(self, client: Client,  msg: Message, values: list[str]):
         count = int(values[0])
         delay = int(values[1])
         text = ' '.join(values[2:])
